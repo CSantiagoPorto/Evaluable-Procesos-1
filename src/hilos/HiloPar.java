@@ -2,6 +2,7 @@ package hilos;
 
 public class HiloPar extends Thread{
 	private String nombre;
+	private static int sumaPares =0;
 	
 	 public HiloPar(String nombre) {
 		super();
@@ -15,10 +16,18 @@ public class HiloPar extends Thread{
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	
+
+	public static int getSumaPares() {
+		return sumaPares;
+	}
+
+	public static void setSumaPares(int sumaPares) {
+		HiloPar.sumaPares = sumaPares;
+	}
 
 	@Override
 	    public void run() {
-	        int sumaPares = 0;
 	        System.out.println(this.nombre +" Está generando numeros pares:");
 	        for (int i = 1; i <= 10; i++) {
 	            if (i % 2 == 0) {
