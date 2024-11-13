@@ -37,7 +37,7 @@ public class HiloPar extends Thread{
 	            }
 	        }
 	        
-	        System.out.println("\nSuma de los números pares: " + sumaPares);
+	        
 	    }
 	}
 	

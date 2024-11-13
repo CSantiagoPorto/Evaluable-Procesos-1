@@ -44,7 +44,7 @@ public class HiloImpar extends Thread {
             sumaImpares += i;
             }
         }
-        System.out.println("\nSuma de los números impares: " + sumaImpares);
+        
     }
 
 }

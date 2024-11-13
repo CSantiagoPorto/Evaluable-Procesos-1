@@ -24,7 +24,7 @@ public class Principal {
 			e.printStackTrace();
 		}
 	     
-
+	     System.out.println("\n");
 	     System.out.println("Todos los hilos han terminado. La suma de todos es:");
 	     System.out.println("Suma de los números pares: " + HiloPar.getSumaPares());
 	     System.out.println("Suma de los números impares: " + HiloImpar.getSumaImpares());
