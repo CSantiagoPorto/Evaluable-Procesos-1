@@ -21,9 +21,6 @@ public class HiloImpar extends Thread {
 	}
 
 
-
-
-
 	public static void setSumaImpares(int sumaImpares) {
 		HiloImpar.sumaImpares = sumaImpares;
 	}
